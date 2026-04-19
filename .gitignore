@@ -1,0 +1,10 @@
+*.dll
+*.pdb
+*.pdbx
+*.pe
+*.txt
+*.nupkg
+bin/
+obj/
+packages/
+.vs/
