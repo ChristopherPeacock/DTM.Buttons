@@ -27,19 +27,16 @@ namespace DTM.Buttons
 
         private void OnPress(object sender, EventArgs e)
         {
-            Debug.WriteLine("Button Pressed!");
             ButtonPressed?.Invoke(this, e);
         }
 
         private void OnDoublePress(object sender, EventArgs e)
         {
-            Debug.WriteLine("Button Double Pressed!");
             ButtonDoublePressed?.Invoke(this, e);
         }
 
         private void OnHolding(object sender, EventArgs e)
         {
-            Debug.WriteLine("Button Held!");
             ButtonHeld?.Invoke(this, e);
         }
     }
